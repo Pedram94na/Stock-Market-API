@@ -6,18 +6,22 @@ Create a .NET project:
 dotnet new webapi -o api
 
 =========================================
+
 Run API application:
 
 dotnet watch run
 
 =========================================
+
 Database Commands:
 
 dotnet ef migrations add {Name}
 dotnet ef database update
 
 =========================================
+
 Sample user:
+
 {
   "userName": "Test",
   "email": "Test@gmail.com",
@@ -30,6 +34,7 @@ Sample user:
 }
 
 =========================================
+
 appsettings.json addons:
 
 "ConnectionStrings": {
@@ -43,11 +48,13 @@ appsettings.json addons:
   }
 
 ========================================
+
 dotnet Packages:
 
 dotnet add package Microsoft.EntityFrameworkCore
 
 =========================================
+
 NUGET Packages:
 
 Microsoft.EntityFrameworkCore.SqlServer
