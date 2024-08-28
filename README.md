@@ -1,5 +1,5 @@
 # Stock Market API
-A web application demo developed with C_Sharp-ASP.NET-API for a stock market where users can sign up, add stocks to their portfolio and comment on them and more. . .
+A web application demo developed with C# ASP.NET for a stock market where users can sign up, add stocks to their portfolio and comment on them and more. . .
 
 Steps to run:
 1. Go to the api directory:
