@@ -1,23 +1,20 @@
 # C_Sharp-ASP.NET-API
 A web application demo for a stock market where users can sign up, add stocks to their portfolio and comment on them and more. . .
 
-Create a .NET project:
+Steps to run:
+1. Go to the api directory:
 
-dotnet new webapi -o api
+  cd .\api
 
-=========================================
+2. Database Commands (I used SQL Server Management Studio from Microsoft)
 
-Run API application:
+  dotnet ef migrations add {Name}
+  
+  dotnet ef database update
 
-cd .\api
-dotnet watch run
+3. Run the program
 
-=========================================
-
-Database Commands:
-
-dotnet ef migrations add {Name}
-dotnet ef database update
+  dotnet watch run
 
 =========================================
 
