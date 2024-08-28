@@ -9,6 +9,7 @@ dotnet new webapi -o api
 
 Run API application:
 
+cd .\api
 dotnet watch run
 
 =========================================
